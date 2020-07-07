@@ -11,7 +11,7 @@ public class ConfigureClientApplication {
 		SpringApplication application = new SpringApplication(ConfigureClientApplication.class);
 		application.addListeners(new MyApplicationContextListeners());
 		ConfigurableApplicationContext context = application.run(args);
-
+		System.out.print("context is "+context);
 	}
 
 }
