@@ -16,8 +16,16 @@ public class MessageRestController {
     @Value("${message:Hello default}")
     private String message;
 
+    @Value("${hello}")
+    private String hello;
+
     @RequestMapping("/message")
     public String renderMessage(){
         return message;
+    }
+
+    @RequestMapping("/hello")
+    public String hello(){
+        return hello;
     }
 }
