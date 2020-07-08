@@ -1,6 +1,8 @@
 spring:
   application:
     name: a-bootiful-client
+  profiles:
+    active: dev
   cloud:
     config:
       uri: http://localhost:8888
