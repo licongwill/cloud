@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="configure-client" />
         <module name="configure-server" />
+        <module name="netflix" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="configure-client" target="1.8" />
       <module name="configure-server" target="1.8" />
+      <module name="netflix" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
