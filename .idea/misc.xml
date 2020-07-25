@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/configure-server/pom.xml" />
         <option value="$PROJECT_DIR$/configure-client/pom.xml" />
         <option value="$PROJECT_DIR$/netflix/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
       </list>
     </option>
   </component>
