@@ -8,12 +8,16 @@
         <outputRelativeToContentRoot value="true" />
         <module name="configure-client" />
         <module name="configure-server" />
+        <module name="eureka-client" />
+        <module name="eureka-server" />
         <module name="eurekaserver" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="configure-client" target="1.8" />
       <module name="configure-server" target="1.8" />
+      <module name="eureka-client" target="1.8" />
+      <module name="eureka-server" target="1.8" />
       <module name="eurekaserver" target="1.8" />
       <module name="netflix" target="1.8" />
     </bytecodeTargetLevel>
