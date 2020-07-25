@@ -9,7 +9,6 @@
         <module name="configure-client" />
         <module name="configure-server" />
         <module name="eurekaserver" />
-        <module name="netflix" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

@@ -6,7 +6,6 @@
       <module fileurl="file://$PROJECT_DIR$/configure-client/configure-client.iml" filepath="$PROJECT_DIR$/configure-client/configure-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/configure-server/configure-server.iml" filepath="$PROJECT_DIR$/configure-server/configure-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eurekaserver.iml" filepath="$PROJECT_DIR$/eureka-server/eurekaserver.iml" />
-      <module fileurl="file://$PROJECT_DIR$/netflix/netflix.iml" filepath="$PROJECT_DIR$/netflix/netflix.iml" />
     </modules>
   </component>
 </project>
