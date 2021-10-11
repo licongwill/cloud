@@ -13,19 +13,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RefreshScope
 public class MessageRestController {
-    @Value("${message:Hello default}")
+    @Value("${message:not get}")
     private String message;
 
-    @Value("${hello}")
-    private String hello;
-
     @RequestMapping("/message")
-    public String renderMessage(){
+    public String getMessage(){
         return message;
     }
 
-    @RequestMapping("/hello")
-    public String hello(){
-        return hello;
-    }
+
 }
